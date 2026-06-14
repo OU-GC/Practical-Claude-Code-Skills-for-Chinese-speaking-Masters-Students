@@ -39,6 +39,43 @@ tuned for Chinese-speaking readers.
 - **No em-dash** — uses periods, commas, colons, or parentheses instead of the
   `——` em-dash.
 
+### [`report-writer`](skills/report-writer/SKILL.md)
+
+A working pattern for writing, rewriting, and polishing academic reports — Word
+(`.docx`) documents and presentation decks (`.pptx`).
+
+- **Content before format** — draft each section in Markdown and review it
+  before pouring it into the `.docx`/`.pptx`; plan and confirm the structure
+  before writing.
+- **One source of truth** — every term, stage name, number, and claim aligns to
+  the canonical spec/diagram/data; fixes are applied everywhere, not just where
+  pointed.
+- **Faithful to the data** — write results strictly from the real numbers, no
+  overclaiming, no jarring metaphors; surface contradictions instead of hiding
+  them.
+- **Citations are claims** — verify each reference actually supports what it's
+  cited for, renumbered by order of first appearance.
+- **Tables & figures** — numbered in order, grouped, cleaned up.
+- **Diagrams** — architecture / flow / framework figures authored in HTML and
+  exported to PNG, with the HTML kept as the editable master.
+- **Format hygiene** — no emoji, no awkward justification gaps, deliberate use
+  of space; slides designed as slides, not walls of prose.
+- **Manual edits are sacred** — the user edits the same file by hand, so never
+  clobber their wording.
+
+### [`report-writer-for-chinese-user`](skills/report-writer-for-chinese-user/SKILL.md)
+
+A Chinese-user variant of `report-writer` with the same writing pattern, adding
+a bilingual workflow for English/Chinese reports.
+
+- **Same core as `report-writer`** — content before format, one source of truth,
+  faithful to the data, citations as claims, tables/figures and format hygiene,
+  diagrams authored in HTML, manual edits are sacred.
+- **English first, then translate into idiomatic, academically natural
+  Chinese** — re-expression, not word-for-word mapping; the Chinese keeps the
+  English layout identical.
+- **Language-correct tables** — no Chinese text left inside the English version.
+
 ### [`science-confirmer`](skills/science-confirmer/SKILL.md)
 
 Enforces evidence-based answers for any science, social-science, or finance
@@ -52,34 +89,6 @@ claim.
   as established fact, never fill gaps with plausible-sounding guesses.
 - **Sound reasoning** — don't confuse correlation with causation; don't overuse
   parenthetical asides.
-
-### [`report-writer`](skills/report-writer/SKILL.md)
-
-A working pattern for writing, rewriting, translating, and polishing academic
-reports — English/Chinese Word (`.docx`) documents and presentation decks
-(`.pptx`).
-
-- **Content before format** — draft each section in Markdown and review it
-  before pouring it into the `.docx`/`.pptx`; plan and confirm the structure
-  before writing.
-- **English first, then translate** into idiomatic, academically natural
-  Chinese — re-expression, not word-for-word mapping; the Chinese keeps the
-  English layout identical.
-- **One source of truth** — every term, stage name, number, and claim aligns to
-  the canonical spec/diagram/data; fixes are applied everywhere, not just where
-  pointed.
-- **Faithful to the data** — write results strictly from the real numbers, no
-  overclaiming, no jarring metaphors; surface contradictions instead of hiding
-  them.
-- **Citations are claims** — verify each reference actually supports what it's
-  cited for, renumbered by order of first appearance.
-- **Tables & figures** — numbered in order, grouped, cleaned up, language-correct.
-- **Diagrams** — architecture / flow / framework figures authored in HTML and
-  exported to PNG, with the HTML kept as the editable master.
-- **Format hygiene** — no emoji, no awkward justification gaps, deliberate use
-  of space; slides designed as slides, not walls of prose.
-- **Manual edits are sacred** — the user edits the same file by hand, so never
-  clobber their wording.
 
 ## Installing
 
@@ -112,8 +121,9 @@ Practical-Claude-Code-Skills-for-Masters-Students/
 └── skills/
     ├── paper-reader/SKILL.md
     ├── paper-reader-for-chinese-user/SKILL.md
-    ├── science-confirmer/SKILL.md
-    └── report-writer/SKILL.md
+    ├── report-writer/SKILL.md
+    ├── report-writer-for-chinese-user/SKILL.md
+    └── science-confirmer/SKILL.md
 ```
 
 ## License
