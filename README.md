@@ -12,7 +12,11 @@ new situation comes up.
 Plain, direct explanations of research papers that keep analytical depth while
 dropping academic stiffness.
 
-- **Conclusion first**, reasoning after; one idea per sentence; concrete example
+- **Prose by default** — coherent sentences for explanation; bullets only when
+  the content is genuinely a list (parallel items, steps, specs, comparisons).
+- **Established terms only** — uses terminology the field already recognizes;
+  never coins term-like phrases, and says so plainly when no standard term exists.
+- **Conclusion first, reasoning after** — one idea per sentence; concrete example
   before the abstract name.
 - **Plain voice** — drop hedging qualifiers, no forced metaphors, short
   paragraphs, a senior-labmate tone rather than a lecturer's.
