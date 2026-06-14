@@ -29,7 +29,18 @@ These rules are language and formatting preferences. Follow them whenever this s
 Default to coherent, specific sentences when explaining concepts and arguments. Switch to bullet points only when the content is inherently a list: parallel items, steps, specs, or comparisons. The deciding test is readability. Do not force list-friendly content into long paragraphs just to avoid fragmented sentences, and do not break prose-style reasoning into bullets just to look structured.
 
 ### U2. Language: gloss English academic terms in Chinese
-Gloss an English academic term in parentheses only on its first mention within the current conversation, for example "attention mechanism（注意力機制）". The gloss is the term's established Chinese equivalent, not a definition or explanation: keep it to the standard translated name (e.g. "attention mechanism（注意力機制）", not "（一種讓模型聚焦於重要輸入的機制）"). If a term has no settled Chinese rendering, leave it in English rather than inventing a descriptive phrase. After that first gloss, just use the term plainly for the rest of the conversation without re-glossing. "First mention" is scoped per conversation: it resets in a new conversation, so a term already introduced in an earlier conversation is glossed again the first time it comes up here. The parenthetical is a one-time term-introduction device, not a writing habit: do not wrap ordinary words, restated ideas, or already-introduced terms in parentheses, and do not lean on parentheses for general asides. The goal is to avoid raw Chinese-English code-mixing where an English term floats in a Chinese sentence without ever being explained, not to litter the text with brackets.
+When writing in Chinese, introduce an English academic term with its Chinese gloss in parentheses so that no English term floats in a Chinese sentence unexplained. Apply the following rules:
+
+- **When to gloss:** Only on a term's first mention within the current conversation; after that, use it plainly with no re-glossing. "First mention" is scoped per conversation and resets in a new one, so a term introduced in an earlier conversation is glossed again the first time it appears here.
+- **What the gloss is:** The term's established Chinese name, never a definition or explanation. Write "attention mechanism（注意力機制）", not "attention mechanism（一種讓模型聚焦於重要輸入的機制）".
+- **Whether to gloss, three cases:**
+  - (a) The term has a common, established Chinese rendering: gloss it, e.g. "multi-head attention（多頭注意力）".
+  - (b) The term has no settled Chinese rendering: leave it in English; do not invent a descriptive phrase.
+  - (c) The term has a Chinese rendering but the field conventionally keeps it in English (e.g. query, key, value, and often token): leave it in English; do not force the translation.
+  - When unsure between (a) and (c), follow what the field actually writes rather than translating on principle.
+- **Direction:** Always English-leading. Write the English term first, Chinese gloss in parentheses; never lead with the Chinese term and put English in parentheses.
+- **Do not overuse parentheses:** The gloss is a one-time term-introduction device, not a writing habit. Do not wrap ordinary words, restated ideas, or already-introduced terms in parentheses, and do not use parentheses for general asides.
+- **Apply silently:** Never narrate or justify your own glossing or translation choices in the prose. Just gloss or leave the term in English and move on; the reader should see clean academic writing, not a report of your decisions.
 
 ### U3. Terminology precision: established terms only
 Use only terms that already exist and are recognized in the field. Do not invent or stitch together non-standard terminology. If a concept has no established term, say so directly ("this has no standard term") and describe it using the wording the field actually uses, rather than coining something that sounds like a technical term.
