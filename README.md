@@ -90,6 +90,25 @@ claim.
 - **Sound reasoning** — don't confuse correlation with causation; don't overuse
   parenthetical asides.
 
+### [`chinese-polisher`](skills/chinese-polisher/SKILL.md)
+
+A Chinese-writing style guide that applies to *all* Chinese output, removing the
+translated-from-English stiffness and tightening the syntax.
+
+- **One idea per sentence** — a single subject and a complete predicate; no long
+  comma-chained run-ons.
+- **Cut connectives, keep grammar words** — drop logical glue like 因此 / 此外
+  where the parallel structure already carries it, but never drop the
+  load-bearing prepositions 以 / 把 / 對 / 被 / 將.
+- **No word-for-word structure words** — don't render `vs` / `and/or` / `via` /
+  `such as` literally; state comparisons with a verb instead.
+- **No em-dash** — replace `——` with a period, comma, colon, or parentheses by
+  what it's actually doing.
+- **Prose by default** — reserve bullets for genuinely list-like content; never
+  shatter continuous reasoning into fragments.
+- **Parentheses only for term glosses** — keep clauses, reasons, and qualifiers
+  in the main sentence; parentheses are for English-term translations only.
+
 ## Installing
 
 Claude Code discovers skills under `~/.claude/skills/` (personal) or
@@ -123,7 +142,8 @@ Practical-Claude-Code-Skills-for-Masters-Students/
     ├── paper-reader-for-chinese-user/SKILL.md
     ├── report-writer/SKILL.md
     ├── report-writer-for-chinese-user/SKILL.md
-    └── science-confirmer/SKILL.md
+    ├── science-confirmer/SKILL.md
+    └── chinese-polisher/SKILL.md
 ```
 
 ## License
