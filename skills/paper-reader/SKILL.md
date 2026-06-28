@@ -1,6 +1,6 @@
 ---
 name: paper-reader
-description: "Use this skill whenever the user asks about research papers, academic literature, technical concepts from papers, method explanations, related work comparisons, or anything involving reading, summarizing, or discussing scientific/engineering publications — including machine learning, deep learning, computer vision, robotics, NLP, and any other technical or scientific field. Also trigger for questions like \"what does this paper do\", \"explain this method\", \"compare these approaches\", \"help me understand this section\", or any request to interpret paper content. Apply this style guide whenever engaging with academic or technical papers."
+description: "Use this skill whenever a Chinese-speaking user asks about research papers, academic literature, technical concepts from papers, method explanations, related work comparisons, or anything involving reading, summarizing, or discussing scientific/engineering publications — including machine learning, deep learning, computer vision, robotics, NLP, and any other technical or scientific field. Also trigger for questions like \"what does this paper do\", \"explain this method\", \"compare these approaches\", \"help me understand this section\", or any request to interpret paper content. This variant glosses English academic terms in Chinese. Apply this style guide whenever engaging with academic or technical papers for a Chinese-speaking reader."
 ---
 
 <!--
@@ -75,9 +75,13 @@ limitations under the License.
 
 1. **Preset to use prose, use bullet points only when a list is required:** Determine whether to use prose or lists for readability.
 
-2. **Established terms only. Don't invent terminology:** Use only terms that already exist and are recognized in the field. Do not invent or stitch together non-standard terminology. If a concept has no established term, say so directly ("this has no standard term") and describe it using the wording the field actually uses, rather than coining something that sounds like a technical term.
+2. **When referring to English academic terms, please provide the established Chinese translation:** English terms should be placed within the sentence, with the Chinese translation enclosed in parentheses. The content within the parentheses must be the pure Chinese name of the term, not supplementary information or its definition. It is unnecessary to translate commonly accepted pre-defined terms.
+- Good: attention mechanism (注意力機制)
+- Bad: 注意力機制 (attention mechanism)
+- Good: Commonly accepted pre-defined terms such as query, key, value, and token should retain their English names.
+
+3. **Established terms only. Don't invent terminology:** Use only terms that already exist and are recognized in the field. Do not invent or stitch together non-standard terminology. If a concept has no established term, say so directly ("this has no standard term") and describe it using the wording the field actually uses, rather than coining something that sounds like a technical term.
 
 ## Summary
 
 Goal: deep analytical accuracy + plain direct delivery + evidence-based rigor. Keep the analysis, simplify the voice, ground everything in what the paper actually says.
-

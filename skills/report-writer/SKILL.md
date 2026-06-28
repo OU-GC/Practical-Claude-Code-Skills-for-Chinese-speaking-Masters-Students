@@ -1,12 +1,14 @@
 ---
 name: report-writer
 description: >-
-  Use when writing, rewriting, or polishing academic reports — Word (.docx)
+  Use when writing, rewriting,
+  translating, or polishing academic reports — English/Chinese Word (.docx)
   documents or presentation decks (.pptx). Encodes a working *pattern*: draft
-  content in Markdown first for review, keep everything aligned to a single
-  source of truth, and treat the user as a co-author whose manual edits are
-  sacred. Trigger on tasks like "重寫 Evaluation"、"整理表格"、"對齊用詞"、
-  "找參考文獻"、"做 PPT"、"畫架構圖"、"畫流程圖"、"畫 framework 圖".
+  content in Markdown first for review, write English first then translate to
+  Chinese, keep everything aligned to a single source of truth, and treat the
+  user as a co-author whose manual edits are sacred. Trigger on tasks like
+  "重寫 Evaluation"、"做中文版"、"整理表格"、"對齊用詞"、"找參考文獻"、
+  "做 PPT"、"畫架構圖"、"畫流程圖"、"畫 framework 圖".
 ---
 
 <!--
@@ -42,7 +44,12 @@ and, when a new situation arises, reason from the principle.
    hierarchy, headings and body text in a logical, well-ordered sequence, one
    idea per section, no orphaned or mislevelled headings. The reader should grasp
    the document's shape from the outline alone.
-2. **Plan, confirm, then write.** For any non-trivial rewrite, first propose
+2. **English first, then translate to Chinese.** Author the English version
+   first. Produce the Chinese version by *translating from the finished
+   English* — not by writing Chinese from scratch and not by literal word
+   mapping. Translating down from settled English is what makes the Chinese
+   prose read smoothly and stay academically natural.
+3. **Plan, confirm, then write.** For any non-trivial rewrite, first propose
    *what content goes where* (e.g. how to split Experimental Results vs
    Evaluation), get it confirmed, then execute.
 
@@ -82,23 +89,33 @@ surface it. Keep the register sober: **no jarring metaphorical or figurative
 wording** — say what a phenomenon *is* in plain technical terms, not what it is
 *like*.
 
-### D. Citations are claims — they must actually support what they're next to
+### D. Translation is re-expression in the target idiom, not word-mapping
+The Chinese version keeps the English version's formatting/layout *identical* —
+only the language changes — but the language is genuinely rewritten:
+- Idiomatic Chinese, academic register, polished to read naturally.
+- **Flowing prose, no parenthetical crutches** in the Chinese body: rewrite
+  bracketed asides into continuous argument. Only touch parentheses in the
+  **prose** — leave citations, units, and figure labels alone.
+- Titles stay academic, never colloquial.
+
+### E. Citations are claims — they must actually support what they're next to
 A reference must genuinely describe the technique it's cited for; a name match is
 not enough — verify the paper is about that method. Number citations by order of
 first appearance and keep in-text `[n]` in sync with the list; add DOI/URL links
 where asked.
 
-### E. Tables & figures: numbered right, grouped, clean, language-correct
+### F. Tables & figures: numbered right, grouped, clean, language-correct
 - Tables numbered in order; every in-text reference matches the real number.
 - Group tables together; move the *real* content over rather than leaving a
   placeholder when the content exists (and only leave a placeholder when it
   genuinely isn't ready).
+- English version: no Chinese text left inside tables.
 - Hygiene: remove the stray Enter/empty paragraph below images; normalize figure
   sizes and alignment; size the caption paragraph to the table width; fix broken
   justification and hyphenation artifacts (e.g. a wrapped "resolu-tion" →
   "resolution").
 
-### F. Format hygiene & deliberate use of space
+### G. Format hygiene & deliberate use of space
 **No emoji anywhere** — not in the report, the slides, captions, or headings.
 This is academic work; keep it text and typography only. Don't leave large empty
 regions — use the page/slide.
@@ -110,7 +127,7 @@ regions — use the page/slide.
   cover all the report's sections; keep footers and page numbers consistent after
   any insert/reorder.
 
-### G. Diagrams: architecture / flow / framework — author in HTML, export to PNG
+### H. Diagrams: architecture / flow / framework — author in HTML, export to PNG
 Architecture diagrams, flowcharts, and framework figures follow the same
 content-before-format spine as the prose: **settle the structure first, render
 last.**
@@ -130,20 +147,23 @@ last.**
    save it as a PNG** for embedding into the `.docx`/`.pptx`. Keep the HTML
    source around as the editable master — when the diagram changes, edit the
    HTML and re-export, never hand-patch the PNG.
-4. **Diagram hygiene.** No emoji (pattern F). Clean, even spacing; consistent box
+4. **Diagram hygiene.** No emoji (pattern G). Clean, even spacing; consistent box
    sizes, fonts, and arrow styles; readable label sizes at the final embedded
    scale. Crop tight — no dead whitespace around the exported PNG. Match the
    figure's wording (title-case, terminology) to the docx and the other figures.
 
 ## Quick self-check before declaring done
-- Drafted content reviewed in Markdown before formatting.
+- Drafted content reviewed in Markdown before formatting; EN authored, ZH
+  translated down from it.
 - Whole doc read first; manual edits intact; changes kept narrow and targeted.
 - Every term/number traces to the source artifacts; any wording fix was checked
   for other occurrences, not just patched where pointed.
 - Claims match the data; no overclaiming; no jarring metaphors; no internal
   contradictions.
+- ZH: idiomatic academic prose, no parenthetical asides, layout identical to EN.
 - Citations on-topic, renumbered by appearance, linked.
-- Tables/figures: numbered, grouped, clean (no stray Enters), captions sized.
+- Tables/figures: numbered, grouped, clean (no stray Enters), captions sized,
+  English-only in EN version.
 - docx: no awkward justification gaps. No emoji or dead whitespace anywhere.
 - Diagrams: structure confirmed before drawing; built in HTML then exported to
   PNG with the HTML kept as editable master; aligned to source artifacts;

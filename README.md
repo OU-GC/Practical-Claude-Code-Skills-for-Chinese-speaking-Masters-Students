@@ -1,16 +1,16 @@
 # Practical Claude Code Skills for Master's Students
 
 A small collection of [Claude Code](https://claude.com/claude-code)
-skills for master's students, built for academic and research work. Each skill encodes a working pattern —
-not a rigid checklist — so Claude reasons from the underlying principle when a
-new situation comes up.
+skills for Chinese-speaking master's students, built for academic and research
+work. Each skill encodes a working pattern — not a rigid checklist — so Claude
+reasons from the underlying principle when a new situation comes up.
 
 ## Skills
 
 ### [`paper-reader`](skills/paper-reader/SKILL.md)
 
-Plain, direct explanations of research papers that keep analytical depth while
-dropping academic stiffness.
+Plain, direct explanations of research papers for Chinese-speaking readers,
+keeping analytical depth while dropping academic stiffness.
 
 - **Prose by default** — coherent sentences for explanation; bullets only when
   the content is genuinely a list (parallel items, steps, specs, comparisons).
@@ -26,21 +26,14 @@ dropping academic stiffness.
   frozen), base model and size, and whether large-scale pretraining was used.
 - **Fixed answer structure** — one-line verdict, the key idea, why it matters,
   and honest limits.
-
-### [`paper-reader-for-chinese-user`](skills/paper-reader-for-chinese-user/SKILL.md)
-
-A Chinese-user variant of `paper-reader` with the same analytical principles,
-tuned for Chinese-speaking readers.
-
-- **Same core as `paper-reader`** — conclusion first, plain voice, strictly evidence-based, never
-  drops load-bearing facts, same fixed answer structure.
 - **Chinese gloss** — English academic terms are followed by their Chinese
   translation in parentheses, e.g. `attention mechanism（注意力機制）`.
 
 ### [`report-writer`](skills/report-writer/SKILL.md)
 
 A working pattern for writing, rewriting, and polishing academic reports — Word
-(`.docx`) documents and presentation decks (`.pptx`).
+(`.docx`) documents and presentation decks (`.pptx`) — with a bilingual
+English/Chinese workflow.
 
 - **Content before format** — draft each section in Markdown and review it
   before pouring it into the `.docx`/`.pptx`; plan and confirm the structure
@@ -60,15 +53,6 @@ A working pattern for writing, rewriting, and polishing academic reports — Wor
   of space; slides designed as slides, not walls of prose.
 - **Manual edits are sacred** — the user edits the same file by hand, so never
   clobber their wording.
-
-### [`report-writer-for-chinese-user`](skills/report-writer-for-chinese-user/SKILL.md)
-
-A Chinese-user variant of `report-writer` with the same writing pattern, adding
-a bilingual workflow for English/Chinese reports.
-
-- **Same core as `report-writer`** — content before format, one source of truth,
-  faithful to the data, citations as claims, tables/figures and format hygiene,
-  diagrams authored in HTML, manual edits are sacred.
 - **English first, then translate into idiomatic, academically natural
   Chinese** — re-expression, not word-for-word mapping; the Chinese keeps the
   English layout identical.
@@ -137,9 +121,7 @@ Practical-Claude-Code-Skills-for-Masters-Students/
 ├── README.md
 └── skills/
     ├── paper-reader/SKILL.md
-    ├── paper-reader-for-chinese-user/SKILL.md
     ├── report-writer/SKILL.md
-    ├── report-writer-for-chinese-user/SKILL.md
     ├── science-confirmer/SKILL.md
     └── chinese-polisher/SKILL.md
 ```
