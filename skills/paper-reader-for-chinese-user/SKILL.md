@@ -1,6 +1,6 @@
 ---
 name: paper-reader-for-chinese-user
-description: "Chinese-user variant of the paper-reader skill. Use this skill whenever a Chinese-speaking user asks about research papers, academic literature, technical concepts from papers, method explanations, related work comparisons, or anything involving reading, summarizing, or discussing scientific/engineering publications — including machine learning, deep learning, computer vision, robotics, NLP, and any other technical or scientific field. Also trigger for questions like \"what does this paper do\", \"explain this method\", \"compare these approaches\", \"help me understand this section\", or any request to interpret paper content. This variant glosses English academic terms in Chinese and bans the em-dash. Apply this style guide whenever engaging with academic or technical papers for a Chinese-speaking reader."
+description: "Chinese-user variant of the paper-reader skill. Use this skill whenever a Chinese-speaking user asks about research papers, academic literature, technical concepts from papers, method explanations, related work comparisons, or anything involving reading, summarizing, or discussing scientific/engineering publications — including machine learning, deep learning, computer vision, robotics, NLP, and any other technical or scientific field. Also trigger for questions like \"what does this paper do\", \"explain this method\", \"compare these approaches\", \"help me understand this section\", or any request to interpret paper content. This variant glosses English academic terms in Chinese. Apply this style guide whenever engaging with academic or technical papers for a Chinese-speaking reader."
 ---
 
 <!--
@@ -81,8 +81,6 @@ limitations under the License.
 - Good: Commonly accepted pre-defined terms such as query, key, value, and token should retain their English names.
 
 3. **Established terms only. Don't invent terminology:** Use only terms that already exist and are recognized in the field. Do not invent or stitch together non-standard terminology. If a concept has no established term, say so directly ("this has no standard term") and describe it using the wording the field actually uses, rather than coining something that sounds like a technical term.
-
-4. **No em-dash("——"):** Use a period, comma, colon, or parentheses.
 
 ## Summary
 

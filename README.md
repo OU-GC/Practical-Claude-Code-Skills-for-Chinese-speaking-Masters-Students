@@ -36,8 +36,6 @@ tuned for Chinese-speaking readers.
   drops load-bearing facts, same fixed answer structure.
 - **Chinese gloss** — English academic terms are followed by their Chinese
   translation in parentheses, e.g. `attention mechanism（注意力機制）`.
-- **No em-dash** — uses periods, commas, colons, or parentheses instead of the
-  `——` em-dash.
 
 ### [`report-writer`](skills/report-writer/SKILL.md)
 
