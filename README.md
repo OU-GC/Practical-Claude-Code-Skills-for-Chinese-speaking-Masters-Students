@@ -100,7 +100,7 @@ translated-from-English stiffness and tightening the syntax.
   load-bearing prepositions 以 / 把 / 對 / 被 / 將.
 - **No word-for-word structure words** — don't render `vs` / `and/or` / `via` /
   `such as` literally; state comparisons with a verb instead.
-- **No em-dash** — replace `——` with a period, comma, colon, or parentheses by
+- **No em-dash** — replace `——` with a period, comma, or colon by
   what it's actually doing.
 - **Prose by default** — reserve bullets for genuinely list-like content; never
   shatter continuous reasoning into fragments.
