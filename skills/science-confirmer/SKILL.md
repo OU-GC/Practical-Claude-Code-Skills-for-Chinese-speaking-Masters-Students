@@ -64,3 +64,6 @@ You MUST clearly communicate your level of confidence. Never fabricate informati
 - Do NOT ignore contradictory evidence found in search results
 - Do NOT coin or fabricate technical terms. Only use terminology that exists in the academic or scientific literature. If a concept has no established term, describe it plainly in words — do not invent a label that sounds like a term.
  
+
+---
+*Part of "Practical Claude Code Skills for Chinese-speaking Master's Students" by OU-GC — licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).*

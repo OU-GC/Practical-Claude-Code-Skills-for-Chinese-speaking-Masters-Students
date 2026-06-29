@@ -67,6 +67,10 @@ English/Chinese workflow.
   Chinese** — re-expression, not word-for-word mapping; the Chinese keeps the
   English layout identical.
 - **Language-correct tables** — no Chinese text left inside the English version.
+- **Chinese writing style** — a built-in 中文行文風格 section enforces clean
+  syntax in the Chinese version: one idea per sentence, cut connectives but keep
+  the load-bearing prepositions 以 / 把 / 對 / 被 / 將, no word-for-word structure
+  words, no em-dash, parentheses only for term glosses, then a self-check pass.
 
 ### [`science-confirmer`](skills/science-confirmer/SKILL.md)
 
@@ -89,14 +93,14 @@ Claude Code discovers skills under `~/.claude/skills/` (personal) or
 
 ```bash
 # clone, then copy the skills into your personal skills directory
-git clone https://github.com/OU-GC/Practical-Claude-Code-Skills-for-Masters-Students.git
-cp -r Practical-Claude-Code-Skills-for-Masters-Students/skills/* ~/.claude/skills/
+git clone https://github.com/OU-GC/Practical-Claude-Code-Skills-for-Chinese-speaking-Masters-Students.git
+cp -r Practical-Claude-Code-Skills-for-Chinese-speaking-Masters-Students/skills/* ~/.claude/skills/
 ```
 
 Or install just one:
 
 ```bash
-cp -r Practical-Claude-Code-Skills-for-Masters-Students/skills/report-writer ~/.claude/skills/
+cp -r Practical-Claude-Code-Skills-for-Chinese-speaking-Masters-Students/skills/report-writer ~/.claude/skills/
 ```
 
 Each skill is a directory containing a `SKILL.md` with YAML frontmatter
@@ -106,7 +110,7 @@ Each skill is a directory containing a `SKILL.md` with YAML frontmatter
 ## Repository layout
 
 ```
-Practical-Claude-Code-Skills-for-Masters-Students/
+Practical-Claude-Code-Skills-for-Chinese-speaking-Masters-Students/
 ├── LICENSE
 ├── NOTICE
 ├── README.md
@@ -118,5 +122,10 @@ Practical-Claude-Code-Skills-for-Masters-Students/
 
 ## License
 
-Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) and
-[NOTICE](NOTICE).
+Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+You are free to share and adapt this material for non-commercial purposes, as
+long as you give appropriate credit and distribute your contributions under the
+same license.
